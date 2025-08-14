@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gemini Tab Reader Options</title>
+    <style>
+        body { font-family: sans-serif; padding: 10px; width: 400px; }
+        .container { display: flex; flex-direction: column; gap: 10px; }
+        label { font-weight: bold; }
+        input { width: 95%; padding: 8px; }
+        button { padding: 10px 15px; cursor: pointer; }
+        #status { margin-top: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Settings</h2>
+        <label for="api-key">Gemini API Key:</label>
+        <input type="password" id="api-key" placeholder="Paste your API key here">
+        <button id="save-button">Save Key</button>
+        <div id="status"></div>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
